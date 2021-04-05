@@ -48,7 +48,7 @@ The screener notably detected Novavax, Inc. (NASD:NVAX) on April 17th at price $
 
   1. You must have a database of stock prices for this to work. I have included the av-bot.py file to do this. This is a selenium bot file that uses your AlphaVantage key to download the necessary csv files for your analysis. Adjust the time.sleep() parameter in the av-bot.py file to make this sufficiently slow if you have a free AlphaVantage account. See their website for information on their rates. The default time parameter is 20 seconds, which is slow. Adjust as needed. 
 
-      I now recommend using the [TD Ameritrade API](https://github.com/alexgolec/tda-api) to gather data, as it is quicker than AlphaVantage for this.
+      Update: I now recommend the [TD Ameritrade API](https://github.com/alexgolec/tda-api) for gathering data.
   
   2. The stock-names.txt file by default contains the tickers of all companies listed on the NASDAQ. If you want to analyze some subset of these tickers, adjust this file.
   
